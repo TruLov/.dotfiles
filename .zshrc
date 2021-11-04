@@ -1,0 +1,5 @@
+alias ls="ls -G"
+alias la="ls -a"
+alias ll="ls -al"
+alias ..="cd .."
+export PATH="/usr/local/opt/sqlite/bin:$PATH"
