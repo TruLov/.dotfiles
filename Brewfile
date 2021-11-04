@@ -1,0 +1,27 @@
+tap "cloudfoundry/tap"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "sap/sapmachine"
+# Command-line interface for SQLite
+brew "sqlite"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Modern replacement for 'ls'
+brew "exa"
+# Smarter Dockerfile linter to validate best practices
+brew "hadolint"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
+# Implementation of Telnet and SSH
+brew "putty"
+# User interface to the TELNET protocol
+brew "telnet"
+brew "cloudfoundry/tap/cf-cli@7"
+# Free and open-source image editor
+cask "gimp"
+# OpenJDK distribution from SAP
+cask "sapmachine-jdk"
+cask "sapmachine11-jdk"
