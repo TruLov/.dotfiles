@@ -7,11 +7,11 @@ alias dl="cd ~/Downloads"
 alias p="cd ~/Projects"
 
 # list files
-if ! command -v exa &>/dev/null; then
-    alias ls="ls -GF"
-    alias la="ls -aGF"
-    alias ll="ls -alGF"
-else
+alias ls="ls -GF"
+alias la="ls -aGF"
+alias ll="ls -alGF"
+
+if command -v exa &>/dev/null; then
     alias es="exa"
     alias ea="exa -a --group-directories-first"
     alias ee="exa -al --group-directories-first"
