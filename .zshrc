@@ -124,11 +124,6 @@ if command -v exa &>/dev/null; then
     alias ee="exa -al --group-directories-first"
 fi
 
-# Always enable colored `grep` output
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
-
 # # nvm
 # export NVM_DIR="$HOME/.nvm"
 # [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
