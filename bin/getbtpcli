@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# src: https://blogs.sap.com/2021/09/01/sap-tech-bytes-btp-cli-installation/
+
 # getbtpcli - Get btp CLI. Specify a version, or have it default to
 # getting the latest. Has a test mode (-t or --test) to just retrieve
 # and show what the version is (only really makes sense when defaulting
